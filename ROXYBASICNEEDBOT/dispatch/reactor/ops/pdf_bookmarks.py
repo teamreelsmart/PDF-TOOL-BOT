@@ -22,7 +22,7 @@ async def pdf_bookmarks(input_file: str, cDIR: str) -> tuple:
             
         output_path = f"{cDIR}/bookmarks.txt"
         with open(output_path, "w", encoding="utf-8") as f:
-            f.write("📚 RoxyBasicNeedBot PDF Table of Contents 📚\n")
+            f.write("📚 TheOrviX PDF Table of Contents 📚\n")
             f.write("==============================================\n\n")
             for lvl, title, page in toc:
                 indent = "  " * (lvl - 1)
