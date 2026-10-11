@@ -105,7 +105,7 @@ if not bot.API_TOKEN or not bot.API_HASH or not bot.API_ID:
 class RoxyBotApp(RoxyBot):
     def __init__(self) -> None:
         super().__init__(
-            name="RoxyPDFTool",
+            name="Pdf_Tool_ProBot",
             api_id=bot.API_ID,
             api_hash=bot.API_HASH,
             bot_token=bot.API_TOKEN,
@@ -201,8 +201,8 @@ class RoxyBotApp(RoxyBot):
             f"❤ BOT ID: {myID[0].id}\n"
             f"❤ BOT NAME: {myID[0].first_name}\n"
             f"❤ BOT USERNAME: {myID[0].username}\n\n"
-            f"❤ DEVELOPED BY: @roxybasicneedbot1 👑\n"
-            f"❤ CHANNEL: t.me/roxybasicneedbot1\n"
+            f"❤ DEVELOPED BY: @PremiumOrvixBot 👑\n"
+            f"❤ CHANNEL: t.me/TheOrviX\n"
         )
 
         if settings.SEND_RESTART:
