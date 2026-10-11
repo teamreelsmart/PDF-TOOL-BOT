@@ -90,13 +90,13 @@ class BotSettings:
         self.DEFAULT_CAPT: str = os.environ.get("DEFAULT_CAPTION", False)
         self.DEFAULT_LANG: str = os.environ.get("DEFAULT_LANG", "eng").lower()
         self.MULTI_LANG_SUP: bool = os.environ.get("MULTI_LANG_SUP", "True").lower() == "true"
-        self.REPORT: str = "https://t.me/roxybasicneedbot1"
-        self.FEEDBACK: str = "https://t.me/roxybasicneedbot1"
-        self.SOURCE_CODE: str = "https://github.com/RoxyBasicNeedBot"
+        self.REPORT: str = "https://t.me/PremiumOrvixBot"
+        self.FEEDBACK: str = "https://t.me/PremiumOrvixBot"
+        self.SOURCE_CODE: str = "https://t.me/TheOrviX"
         owner_str = os.environ.get("OWNER_ID", "").strip()
         self.OWNER_ID: int = int(owner_str) if owner_str.isdigit() else 0
-        self.OWNER_USERNAME: str = os.environ.get("OWNER_USERNAME", "@roxybasicneedbot1")
-        self.OWNED_CHANNEL: str = "https://t.me/roxybasicneedbot1"
+        self.OWNER_USERNAME: str = os.environ.get("OWNER_USERNAME", "@PremiumOrvixBot")
+        self.OWNED_CHANNEL: str = "https://t.me/TheOrviX"
         self.REFER_BETA: bool = os.environ.get("REFER_BETA", "False").lower() == "true"
         self.STOP_BOT: bool = os.environ.get("STOP_BOT", "False").lower() == "true"
         self.INLINE_SEARCH: bool = os.environ.get("INLINE_SEARCH", "True").lower() == "true"
