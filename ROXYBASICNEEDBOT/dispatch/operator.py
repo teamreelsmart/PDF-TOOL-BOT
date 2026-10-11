@@ -335,7 +335,7 @@ async def report_dashboard_cmd(bot_client: RoxyBot, message: Message):
         
         # Format summary
         summary = (
-            "📊 **Daily RoxyBot Report**\n\n"
+            "📊 **Daily Pdf_Tool_ProBot Report**\n\n"
             f"👤 **Users in DB:** `{total_users}`\n"
             f"👥 **Groups in DB:** `{total_chats}`\n\n"
             f"💿 **Disk Space:** `{used_p:.1f}% used`\n"
