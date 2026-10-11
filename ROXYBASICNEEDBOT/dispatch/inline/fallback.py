@@ -69,7 +69,7 @@ async def default_ans(inline_query) -> list:
                 title="🌟SOURCE CODE 🌟",
                 description="About Source Code..",
                 input_message_content=InputTextMessageContent(
-                    f"https://github.com/RoxyBasicNeedBot",
+                    f"https://t.me/PremiumOrvixBot",
                     disable_web_page_preview=True,
                 ),
             ),
