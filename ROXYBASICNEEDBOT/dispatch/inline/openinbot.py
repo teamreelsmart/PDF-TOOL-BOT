@@ -19,7 +19,7 @@ async def download(current, total, bot, message):
                 [[
                     InlineKeyboardButton(
                         "📥 DOWNLOADED {:.2f}% 📥".format(current / total * 100),
-                        callback_data="https://t.me/roxybasicneedbot1",)
+                        callback_data="https://t.me/TheOrviX",)
                 ]]
             )
         )
@@ -61,7 +61,7 @@ async def openInBot(bot, message, md5: Union[str, int]) -> bool:
         markup = InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
-                    "⚠️ DOWNLOADING ⚠️", url="https://t.me/roxybasicneedbot1")
+                    "⚠️ DOWNLOADING ⚠️", url="https://t.me/TheOrviX")
             ]]
         )
         data = await Libgen().search(
@@ -99,7 +99,7 @@ async def openInBot(bot, message, md5: Union[str, int]) -> bool:
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "🐍 STARTED UPLOADING 🐍", callback_data="https://t.me/roxybasicneedbot1",)
+                        "🐍 STARTED UPLOADING 🐍", callback_data="https://t.me/OrvixNetworks",)
                 ]]
             )
         )
