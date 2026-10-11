@@ -54,7 +54,7 @@ async def messagePDF(
                 if 1 <= len(pdfText) <= 1000:
                     try:
                         await callbackQuery.message.reply(
-                            f"```🅿🅰🅶🅴 : {pageNo}\n\n{pdfText}```\n@roxybasicneedbot1",
+                            f"```🅿🅰🅶🅴 : {pageNo}\n\n{pdfText}```\n@TheOrviX",
                             quote=pageNo == 1,
                         )
                     except FloodWait as e:
@@ -69,7 +69,7 @@ async def messagePDF(
                         j = sanitize_text(j)
                         try:
                             await callbackQuery.message.reply(
-                                f"```🅿🅰🅶🅴 : {pageNo}-{i}\n\n{j}```\n\n@roxybasicneedbot1",
+                                f"```🅿🅰🅶🅴 : {pageNo}-{i}\n\n{j}```\n\n@TheOrviX",
                                 quote=pageNo == 1,
                             )
                         except FloodWait as e:
