@@ -109,7 +109,7 @@ async def previewPDF(
                                 tb_media.append(InputMediaPhoto(media=h))
                         try:
                             await roxyTeleBot.send_media_group(callbackQuery.message.chat.id, tb_media)
-                            logger.debug(f"✅ Preview media group sent successfully via roxyTeleBot fallback!")
+                            logger.debug(f"✅ Preview media group sent successfully via @Pdf_ToolProBot fallback!")
                         finally:
                             for h in handles:
                                 try:
